@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 28;
+}
+.calculator{
+    background: #221a1a;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 550px;
+    width: 400px;
+    border: 2px;
+    box-shadow: 2px 0px 10px 1px #b8bfc5cf;
+    border-radius: 3%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+input{
+    background: rgba(0, 0, 0, 0.325);
+    color: rgba(255, 255, 255, 0.799);
+    height: 25%;
+    width: 100%;
+    font-size: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    text-align: right;
+    border-color: aliceblue;
+    border-radius: 3%;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.799);
+}
+button{
+    height: 70px;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.325);
+    border: none;
+    border-radius: 50%;
+    font-size: 29px;
+    box-shadow: 0px 0 5px 0px #b8bfc5cf;
+    color: white;
+    margin:4px 12px 7px ;
+    cursor: pointer;
+}
+button:hover{
+    background: white;
+    color: orange;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+.equal{
+    background: orange;
+}
+.equal:hover{
+    background: white;
+    color: black;
+}
+.opt{
+    color: rgba(26, 124, 26, 0.897);
+}
+.footerbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color:#1a1414;
+    color: rgba(0, 128, 0, 0.663);
+}
+.cname{
+    color: rgba(255, 166, 0, 0.813);
+}
